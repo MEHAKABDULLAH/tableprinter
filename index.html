@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>table printer</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1><em>TABLE PRINTER</em></h1>
+        <label for="number">Enter TABLE:</label>
+        <input type="number" id="number" min="1" placeholder="Enter number for table">
+
+        <label for="start">Start From:</label>
+        <input type="number" id="start" min="1" placeholder="Start multiplication from">
+
+        <label for="end">End At:</label>
+        <input type="number" id="end" min="1" placeholder="End multiplication at">
+
+        <button onclick="printTable()">Print Table</button>
+
+        <table id="resultTable"></table>
+    </div>
+<script src="app.js"></script>
+
